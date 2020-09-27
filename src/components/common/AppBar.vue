@@ -1,6 +1,7 @@
 <template>
   <v-app-bar
     class="app-bar"
+    color="secondary darken-2"
     app
     dark
   >
@@ -59,14 +60,6 @@ export default {
   .v-btn {
     margin-right: 16px;
     position: relative;
-
-    &.v-btn--active {
-      color: var(--v-primary-base);
-
-      &::before {
-        opacity: 0.1;
-      }
-    }
 
     &:last-of-type {
       margin-right: 4px;

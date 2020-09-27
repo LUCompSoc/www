@@ -1,0 +1,49 @@
+// Globals
+$body-font-family: 'Open Sans', sans-serif;
+$heading-font-family: 'Ubuntu Mono', serif;
+
+$headings: (
+  'h1': (
+    'font-family': $heading-font-family,
+  ),
+  'h2': (
+    'font-family': $heading-font-family,
+  ),
+  'h3': (
+    'font-family': $heading-font-family,
+  ),
+  'h4': (
+    'font-family': $heading-font-family,
+  ),
+  'h5': (
+    'font-family': $heading-font-family,
+  ),
+  'h6': (
+    'font-family': $heading-font-family,
+  ),
+  'subtitle-1': (
+    'font-family': $body-font-family,
+  ),
+  'subtitle-2': (
+    'font-family': $body-font-family,
+  ),
+  'body-1': (
+    'font-family': $body-font-family,
+  ),
+  'body-2': (
+    'font-family': $body-font-family,
+  ),
+  'button': (
+    'font-family': $body-font-family,
+  ),
+  'caption': (
+    'font-family': $body-font-family,
+  ),
+  'overline': (
+    'font-family': $body-font-family,
+  ),
+);
+
+$btn-font-weight: 600;
+
+@import '~vuetify/src/styles/styles';
