@@ -10,6 +10,16 @@ const routes = [
     name: 'home',
     component: Home,
   },
+  {
+    path: '/blog',
+    name: 'blog',
+    component: () => import('@/views/Blog'),
+  },
+  {
+    path: '/contact',
+    name: 'contact',
+    component: () => import('@/views/Contact'),
+  },
 ]
 
 const router = new VueRouter({
