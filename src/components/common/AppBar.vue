@@ -5,8 +5,8 @@
     dark
   >
     <!-- CompSoc logo -->
-    <router-link :to="{ name: 'home' }" class="text-decoration-none white--text">
-      <div class="d-flex align-center">
+    <router-link :to="{ name: 'home' }" class="logo">
+      <div class="d-flex">
         <v-img
           alt="CSS Logo"
           class="mr-2"
@@ -23,11 +23,12 @@
 
     <!-- Navigation links -->
     <div class="navigation">
-      <a
+      <v-btn
         v-for="{ name, route } in routes"
-        class="link text-button"
         :key="name"
-        @click="navigate(route)"
+        text
+        :to="route"
+        active-class="active"
         v-text="name"
       />
     </div>
@@ -43,39 +44,32 @@ export default {
       { name: 'Contact', route: { name: 'contact' } },
     ],
   }),
-  methods: {
-    navigate(route) {
-      this.$router.push(route);
-    },
-  }
 }
 </script>
 
 <style lang="scss">
 .app-bar {
-  .link {
-    position: relative;
+  .logo {
+    color: white;
+    font-family: 'Ubuntu Mono', sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+
+  .v-btn {
     margin-right: 16px;
+    position: relative;
 
-    &:before {
-      content: '';
-      position: absolute;
-      width: 0;
-      height: 1px;
-      bottom: 0;
-      left: 0;
-      background: linear-gradient(to left, var(--v-primary-base), var(--v-secondary-base));
-      visibility: hidden;
-      transition: all 0.25s ease-in-out;
-    }
+    &.v-btn--active {
+      color: var(--v-primary-base);
 
-    &:hover:before {
-      visibility: visible;
-      width: 100%;
+      &::before {
+        opacity: 0.1;
+      }
     }
 
     &:last-of-type {
-      margin-right: 0;
+      margin-right: 4px;
     }
   }
 }
