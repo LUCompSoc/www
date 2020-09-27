@@ -21,6 +21,8 @@
 
           <v-btn
             color="secondary"
+            href="https://lancastersu.co.uk/groups/computer-science-society-2c91"
+            target="_blank"
           >
             Become a member
             <v-icon right>mdi-arrow-right</v-icon>
@@ -28,9 +30,10 @@
         </v-col>
       </v-row>
 
-      <v-row justify="center">
+      <!-- Activities -->
+      <v-row justify="center py-8">
         <v-col
-          class="text-center my-4"
+          class="text-center"
           cols="12"
         >
           <div class="display-1 mb-4">What we do</div>
@@ -53,10 +56,33 @@
         </v-col>
       </v-row>
 
-      <v-row class="hex-background" justify="center">
+      <v-row class="hex-background py-8" justify="center">
+        <!-- Discord server information -->
         <v-col
-          class="text-center my-4"
-          cols="12" sm="10" md="8" lg="6"
+          class="text-center"
+          cols="12" sm="10" md="6" lg="5"
+        >
+          <div class="display-1 mb-4">Get involved</div>
+
+          <div class="body-1 mb-4">
+            Join our community Discord server.
+          </div>
+
+          <!-- Discord server widget -->
+          <iframe
+            src="https://discordapp.com/widget?id=602960107130716165&theme=dark"
+            width="100%"
+            height="400"
+            allowtransparency="true"
+            frameborder="0"
+            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+          />
+        </v-col>
+
+        <!-- Social media information -->
+        <v-col
+          class="text-center"
+          cols="12" md="6" lg="5"
         >
           <div class="display-1 mb-4">Connect with us</div>
 
@@ -65,63 +91,54 @@
             and events.
           </div>
 
-          <div class="my-4" />
-
           <!-- Social links -->
-          <v-btn
-            text large color="#7289da"
-            href="https://discord.gg/compsoc"
-            target="_blank"
-          >
-            <v-icon left>mdi-discord</v-icon>
-            Discord
-          </v-btn>
+          <div class="px-16 mt-8">
+            <v-btn
+              text large color="#4267B2"
+              href="https://www.facebook.com/LUCompSoc"
+              target="_blank"
+            >
+              <v-icon left>mdi-facebook</v-icon>
+              Facebook
+            </v-btn>
 
-          <v-btn
-            text large color="#4267B2"
-            href="https://www.facebook.com/LUCompSoc"
-            target="_blank"
-          >
-            <v-icon left>mdi-facebook</v-icon>
-            Facebook
-          </v-btn>
+            <v-btn
+              text large color="#1a91da"
+              href="https://twitter.com/LUCompSoc"
+              target="_blank"
+            >
+              <v-icon left>mdi-twitter</v-icon>
+              Twitter
+            </v-btn>
 
-          <v-btn
-            text large color="#1a91da"
-            href="https://twitter.com/LUCompSoc"
-            target="_blank"
-          >
-            <v-icon left>mdi-twitter</v-icon>
-            Twitter
-          </v-btn>
+            <v-btn
+              text large
+              class="instagram"
+              href="https://instagram.com/LUCompSoc"
+              target="_blank"
+            >
+              <v-icon left>mdi-instagram</v-icon>
+              Instagram
+            </v-btn>
 
-          <v-btn
-            text large
-            class="instagram"
-            href="https://instagram.com/LUCompSoc"
-            target="_blank"
-          >
-            <v-icon left>mdi-instagram</v-icon>
-            Instagram
-          </v-btn>
+            <v-btn
+              text large color="#0073b1"
+              href="https://www.linkedin.com/company/lancaster-university-computer-science-society"
+              target="_blank"
+            >
+              <v-icon left>mdi-linkedin</v-icon>
+              Linkedin
+            </v-btn>
 
-          <v-btn
-            text large color="#0073b1"
-            href="https://www.linkedin.com/company/lancaster-university-computer-science-society"
-            target="_blank"
-          >
-            <v-icon left>mdi-linkedin</v-icon>
-            Linkedin
-          </v-btn>
-
-          <v-btn
-            text large
-            href="https://github.com/LUCompSoc"
-            target="_blank"
-          >
-            <v-icon left>mdi-github</v-icon>
-            GitHub
-          </v-btn>
+            <v-btn
+              text large
+              href="https://github.com/LUCompSoc"
+              target="_blank"
+            >
+              <v-icon left>mdi-github</v-icon>
+              GitHub
+            </v-btn>
+          </div>
         </v-col>
       </v-row>
 
@@ -184,7 +201,7 @@ export default {
   }
 
   .onboarding {
-    height: 80vh;
+    height: 70vh;
 
     .subtitle-1 {
       font-size: 1.3rem !important;
