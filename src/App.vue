@@ -1,32 +1,46 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <v-app>
+    <v-app-bar
+      app
+      dark
+    >
+      <div class="d-flex align-center">
+        <v-img
+          alt="CSS Logo"
+          class="mr-2"
+          contain
+          :src="require('./assets/CSSLogo.svg')"
+          width="80"
+        />
+
+        <h2 class="ml-2">LU CompSoc</h2>
+      </div>
+
+      <v-spacer />
+
+      <v-btn
+        href="#"
+        text
+      >
+        <span class="mr-2">Blog</span>
+      </v-btn>
+
+      <v-btn
+        href="#"
+        text
+      >
+        <span class="mr-2">Contact</span>
+      </v-btn>
+    </v-app-bar>
+
+    <v-main>
+      <router-view />
+    </v-main>
+  </v-app>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<script>
+export default {
+  name: 'App',
 }
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
-</style>
+</script>
