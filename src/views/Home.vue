@@ -94,6 +94,17 @@
           <!-- Social links -->
           <div class="px-16 mt-8">
             <v-btn
+              text large color="#7289DA"
+              href="https://discord.gg/compsoc"
+              target="_blank"
+            >
+              <v-icon left>mdi-discord</v-icon>
+              discord.gg/compsoc
+            </v-btn>
+
+            <br />
+
+            <v-btn
               text large color="#4267B2"
               href="https://www.facebook.com/LUCompSoc"
               target="_blank"
