@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <v-container fluid>
+      <!-- Onboarding header -->
       <v-row
         class="onboarding hex-background"
         align="center"
@@ -153,6 +154,7 @@
         </v-col>
       </v-row>
 
+      <!-- Footer -->
       <v-row align="center">
         <v-col cols="6">
           <div>Kindly sponsored by:</div>

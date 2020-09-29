@@ -41,6 +41,7 @@ export default {
   name: 'app-bar',
   data: () => ({
     routes: [
+      // Hide these routes for now since they have no content
       // { name: 'Blog', route: { name: 'blog' } },
       // { name: 'Contact', route: { name: 'contact' } },
     ],
@@ -50,6 +51,7 @@ export default {
 
 <style lang="scss">
 .app-bar {
+  // Change the font of the "LU CompSoc" text and remove underline.
   .logo {
     color: white;
     font-family: 'Ubuntu Mono', sans-serif;
@@ -57,6 +59,7 @@ export default {
     text-decoration: none;
   }
 
+  // Space out the route buttons with extra margins.
   .v-btn {
     margin-right: 16px;
     position: relative;

@@ -13,6 +13,11 @@ export const CompsocColours = {
   LightBlue: '#a9d9e5',
 };
 
+/**
+ * The Vuetify theme object changes how the Vuetify components are rendered.
+ *
+ * @see https://vuetifyjs.com/en/introduction/why-vuetify/#guide
+ */
 export default new Vuetify({
   theme: {
     dark: true,
