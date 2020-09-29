@@ -41,8 +41,8 @@ export default {
   name: 'app-bar',
   data: () => ({
     routes: [
-      { name: 'Blog', route: { name: 'blog' } },
-      { name: 'Contact', route: { name: 'contact' } },
+      // { name: 'Blog', route: { name: 'blog' } },
+      // { name: 'Contact', route: { name: 'contact' } },
     ],
   }),
 }
