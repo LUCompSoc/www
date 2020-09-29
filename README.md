@@ -1,4 +1,4 @@
-# compsoc-website
+# compsoc-www
 
 ## Project setup
 ```
