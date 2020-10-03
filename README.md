@@ -48,16 +48,16 @@ _We use Docker containers so that we can test our code in an environment as clos
 - [Vue.js 2.x][vuejs] (v3 was recently released, but Vuetify hasn't been updated yet)
 - [Vuetify][vuetify] - design framework
 
-### Development
-
-Make sure to install the system and project dependencies above before getting started.
-
 You will need the [Vue CLI][vue-cli] to build and run the website locally. This can be installed
 using the following command:
 
 ```
 ➜ yarn global add @vue/cli
 ```
+
+## 🏗 Development
+
+Make sure to install the system and project dependencies above before getting started.
 
 Next, clone your fork of the repository to your own machine and install the package dependencies.
 
