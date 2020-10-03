@@ -49,7 +49,6 @@
                 <v-card>
                   <v-icon v-text="icon" size="96" color="primary" class="mt-4" />
                   <v-card-title v-text="title" />
-                  <v-card-text v-text="text" class="text-start" />
                 </v-card>
               </v-col>
             </v-row>
