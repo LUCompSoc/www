@@ -161,7 +161,7 @@
         </v-col>
 
         <v-col cols="6" class="text-end">
-          <v-btn text small href="#">Constitution</v-btn>
+          <v-btn text small :to="{ name: 'constitution' }">Constitution</v-btn>
           &middot;
           <v-btn text small href="#">Cookies policy</v-btn>
           &middot;
