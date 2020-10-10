@@ -180,7 +180,7 @@ export default {
     interval: null,
     activities: [
       { icon: 'mdi-code-tags', title: 'Hobby projects', text: 'Lorem ipsum' },
-      { icon: 'mdi-account-multiple-plus', title: 'Network opportunities', text: 'Lorem ipsum' },
+      { icon: 'mdi-account-multiple-plus', title: 'Networking opportunities', text: 'Lorem ipsum' },
       { icon: 'mdi-school', title: 'Revision sessions', text: 'Lorem ipsum' },
       { icon: 'mdi-account-voice', title: 'Professional talks', text: 'Lorem ipsum' },
       { icon: 'mdi-ticket', title: 'Social events', text: 'Lorem ipsum' },
