@@ -62,7 +62,8 @@ Make sure to install the system and project dependencies above before getting st
 Next, clone your fork of the repository to your own machine and install the package dependencies.
 
 ```
-➜ git clone https://github.com/<username>/compsoc-www
+➜ git clone https://github.com/<username>/www lucompsoc-www
+➜ cd lucompsoc-www
 ➜ yarn (or yarn install if you want to be verbose)
 ```
 
