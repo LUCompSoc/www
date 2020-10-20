@@ -94,18 +94,18 @@
           <!-- Social links -->
           <div class="px-16 mt-8">
             <v-btn
-              text large color="#7289DA"
+              large color="#7289DA" class="px-4 mb-4"
               href="https://discord.gg/compsoc"
               target="_blank"
             >
-              <v-icon left>mdi-discord</v-icon>
+              <v-icon class="mr-2">mdi-discord</v-icon>
               discord.gg/compsoc
             </v-btn>
 
             <br />
 
             <v-btn
-              text large color="#4267B2"
+              text large color="#2D88FF"
               href="https://www.facebook.com/LUCompSoc"
               target="_blank"
             >
