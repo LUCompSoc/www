@@ -5,6 +5,9 @@
       Source on <a href="https://github.com/lucompsoc/constitution" target="_blank">GitHub</a>.
     </p>
     <iframe :src="iframeSrc" />
+    <p class="caption">
+      Can't see it? Click <a :href="iframeSrc">here</a>.
+    </p>
   </v-container>
 </template>
 
