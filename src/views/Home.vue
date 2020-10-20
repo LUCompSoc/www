@@ -32,7 +32,7 @@
       </v-row>
 
       <!-- Activities -->
-      <v-row justify="center py-8">
+      <v-row justify="center" class="py-8">
         <v-col
           class="text-center"
           cols="12"
@@ -153,8 +153,20 @@
         </v-col>
       </v-row>
 
+      <!-- Calendar -->
+      <v-row class="py-8" justify="center">
+        <v-col
+          class="text-center"
+          cols="12" md="10" lg="8"
+        >
+          <div class="display-1 mb-8">Events calendar</div>
+
+          <events-calendar />
+        </v-col>
+      </v-row>
+
       <!-- Footer -->
-      <v-row align="center">
+      <v-row class="hex-background" align="center">
         <v-col cols="6">
           <div>Kindly sponsored by:</div>
           <div class="overline"><< insert sponsors here >></div>
@@ -173,8 +185,11 @@
 </template>
 
 <script>
+import EventsCalendar from '../components/home/EventsCalendar'
+
 export default {
   name: 'home',
+  components: { EventsCalendar },
   data: () => ({
     underscore: true,
     interval: null,
