@@ -45,6 +45,13 @@ export default {
         color: 'blue',
       })
 
+      events.push({
+        name: 'Internet Cafe - Study Session',
+        start: '2020-10-23 18:00',
+        end: '2020-10-23 29:00',
+        color: 'blue',
+      })
+
       this.events = events
     },
     getEventColor(event) {
