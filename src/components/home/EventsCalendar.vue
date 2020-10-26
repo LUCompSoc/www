@@ -42,14 +42,29 @@ export default {
         name: 'Linux 101: Installation and CLI',
         start: '2020-10-22 18:00',
         end: '2020-10-22 20:00',
-        color: 'blue',
+        color: 'purple',
       })
 
       events.push({
         name: 'Internet Cafe - Study Session',
         start: '2020-10-23 18:00',
-        end: '2020-10-23 29:00',
+        end: '2020-10-23 19:00',
         color: 'blue',
+      })
+
+      events.push({
+        name: 'Internet Cafe - Study Session',
+        start: '2020-10-30 18:00',
+        end: '2020-10-30 19:00',
+        color: 'blue',
+      })
+
+      // FIXME: not visible until November, need to be able to change month
+      events.push({
+        name: 'App Development 101',
+        start: '2020-11-05 18:00',
+        end: '2020-11-05 20:00',
+        color: 'purple',
       })
 
       this.events = events
